@@ -1,0 +1,18 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Credentials & Keys
+credentials.json
+*.key
+*.pem
+config/secrets*
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# n8n exports with credentials
+n8n-credentials-backup.json
